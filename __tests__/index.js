@@ -20,6 +20,7 @@ describe('jest-serializer-html-string', () => {
 		expect(true).toMatchSnapshot();
 		expect([]).toMatchSnapshot();
 		expect({}).toMatchSnapshot();
+		expect(Object.create(null)).toMatchSnapshot();
 		expect('Non html tags strings').toMatchSnapshot();
 	});
 });

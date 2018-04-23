@@ -5,7 +5,7 @@ var isHtml = require('is-html');
 
 module.exports = {
 	test: function (val) {
-		return isHtml(val);
+		return typeof val === 'string' && isHtml(val);
 	},
 	print: function (val) {
 		return html.prettyPrint(val, {

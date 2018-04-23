@@ -6,7 +6,9 @@ exports[`jest-serializer-html-string should not reformat something that is not a
 
 exports[`jest-serializer-html-string should not reformat something that is not an html string 4`] = `Object {}`;
 
-exports[`jest-serializer-html-string should not reformat something that is not an html string 5`] = `"Non html tags strings"`;
+exports[`jest-serializer-html-string should not reformat something that is not an html string 5`] = `Object {}`;
+
+exports[`jest-serializer-html-string should not reformat something that is not an html string 6`] = `"Non html tags strings"`;
 
 exports[`jest-serializer-html-string should reformat a given html 1`] = `
 <body>
